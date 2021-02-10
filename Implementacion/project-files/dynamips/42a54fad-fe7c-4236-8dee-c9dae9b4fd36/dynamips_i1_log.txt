@@ -1,0 +1,19 @@
+Feb 09 15:07:21.656 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 09 15:07:21.658 HYPERVISOR: Started on IP = localhost, TCP port = 58590.
+Feb 09 15:07:21.751 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 09 15:07:21.751 HYPERVISOR: exec_cmd: hypervisor working_dir E:\Documentos\PROYECTOS REDES 2\Practica1_Implementacion_18\project-files\dynamips 
+Feb 09 15:07:21.855 GENERAL: working_dir=E:\Documentos\PROYECTOS REDES 2\Practica1_Implementacion_18\project-files\dynamips
+Feb 09 15:07:21.856 HYPERVISOR: exec_cmd: ethsw create SWVENTAS 
+Feb 09 15:07:24.900 HYPERVISOR: exec_cmd: nio create_udp udp-57be174a-24e4-434b-bddd-318a9cf1e3ab 10001 127.0.0.1 10000 
+Feb 09 15:07:24.900 HYPERVISOR: exec_cmd: ethsw add_nio SWVENTAS udp-57be174a-24e4-434b-bddd-318a9cf1e3ab 
+Feb 09 15:07:24.903 HYPERVISOR: exec_cmd: ethsw set_access_port SWVENTAS udp-57be174a-24e4-434b-bddd-318a9cf1e3ab 1 
+Feb 09 15:07:24.973 HYPERVISOR: exec_cmd: nio create_udp udp-ac379c2b-b24e-4c24-a93a-893a3cd46cf4 10003 127.0.0.1 10002 
+Feb 09 15:07:24.973 HYPERVISOR: exec_cmd: ethsw add_nio SWVENTAS udp-ac379c2b-b24e-4c24-a93a-893a3cd46cf4 
+Feb 09 15:07:24.998 HYPERVISOR: exec_cmd: ethsw set_access_port SWVENTAS udp-ac379c2b-b24e-4c24-a93a-893a3cd46cf4 1 
+Feb 09 15:07:25.493 HYPERVISOR: exec_cmd: nio create_udp udp-5cb46808-873c-42a0-872a-20294e77f333 10012 127.0.0.1 10013 
+Feb 09 15:07:25.494 HYPERVISOR: exec_cmd: ethsw add_nio SWVENTAS udp-5cb46808-873c-42a0-872a-20294e77f333 
+Feb 09 15:07:25.494 HYPERVISOR: exec_cmd: ethsw set_access_port SWVENTAS udp-5cb46808-873c-42a0-872a-20294e77f333 1 
+Feb 09 18:48:13.571 HYPERVISOR: exec_cmd: ethsw delete SWVENTAS 
+Feb 09 18:48:13.642 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 09 18:48:14.108 HYPERVISOR: Stopped.
+Feb 09 18:48:14.108 GENERAL: reset done.
